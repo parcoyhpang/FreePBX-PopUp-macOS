@@ -2,7 +2,12 @@
 
 ![FreePBX Popup Client](resources/icon.png)
 
-A feature-rich, native macOS client for FreePBX call notifications. This application connects to your FreePBX server via AMI (Asterisk Manager Interface) and displays elegant, customizable notifications for incoming calls.
+I needed my Mac to show popup for incoming calls to my extensions and is too cheap to buy a commercial solution - so this is the result. This is a macOS menu bar application that connects to your FreePBX server via AMI (Asterisk Manager Interface) and displays popups for incoming calls.
+
+![FreePBX Popup Screenshot](screenshots/popup-screenshot0.png)
+
+> [!IMPORTANT]
+> I wrote this mainly for myself - so it's probably expectedly (but tolerably) buggy - my apologies ;)
 
 ## Features
 
@@ -114,6 +119,32 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [rumps](https://github.com/jaredks/rumps) for the menu bar integration
 - [PyInstaller](https://www.pyinstaller.org/) for application packaging
 - [FreePBX](https://www.freepbx.org/) for the amazing PBX platform
+
+## Roadmap
+
+Future plans for the FreePBX Popup Client include:
+
+- **Call Transfer**: Ability to transfer calls directly from the notification window
+- **Call History**: View and manage your call history
+- **Contact Integration**: Integration with macOS Contacts
+- **Multiple Server Support**: Connect to multiple FreePBX servers simultaneously
+- **Customizable Notification Templates**: Create your own notification layouts
+- **Localization**: Support for multiple languages
+- **Analytics**: Basic call statistics and reporting
+
+## Bug Reports and Issues
+
+If you encounter any bugs or issues with the FreePBX Popup Client, please report them on the [GitHub Issues page](https://github.com/parcoyhpang/FreePBX-PopUp-macOS/issues). When reporting an issue, please include:
+
+- A clear and descriptive title
+- Steps to reproduce the issue
+- Expected behavior
+- Actual behavior
+- Screenshots (if applicable)
+- Your macOS version
+- Your FreePBX version
+
+This helps us identify and fix issues more quickly.
 
 ## Author
 
