@@ -1,0 +1,13 @@
+rumps>=0.4.0
+wxPython>=4.2.0
+Pillow>=9.2.0
+requests>=2.28.1
+sqlalchemy>=2.0.0
+pyobjc>=9.0.1
+pyinstaller>=5.13.0
+packaging>=23.1
+py_sip_xnu>=1.0.0
+py-applescript>=1.0.3
+markdown2>=2.4.8
+macos-pkg-builder>=0.1.0
+mac-signing-buddy>=0.1.0
