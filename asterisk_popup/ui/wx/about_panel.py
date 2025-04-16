@@ -111,7 +111,7 @@ class AboutPanel(scrolled.ScrolledPanel):
         links = [
             ("GitHub", "@parcoyhpang", "https://github.com/parcoyhpang"),
             ("Website", "parcopang.com", "https://parcopang.com"),
-            ("Repository", "FreePBX Popup", "https://github.com/parcoyhpang/freepbx-popup")
+            ("Repository", "FreePBX Popup", "https://github.com/parcoyhpang/FreePBX-PopUp-macOS")
         ]
 
         for label, text, url in links:
